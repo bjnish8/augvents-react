@@ -1,10 +1,10 @@
 .myVideo {
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
-    top: 0px;
-    z-index: -1;
-  }
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0px;
+  z-index: -1;
+}
 
 .home {
   height: 6000px;
@@ -54,12 +54,11 @@
         font-size: 26px;
       }
     }
-
-
   }
   .steps {
     background-color: rgba(219, 215, 233, 0.856);
-    height: 1200px;
+    height: 1000px;
+    color: black;
 
     .step {
       font-size: 80px;
@@ -77,13 +76,15 @@
       text-transform: uppercase;
       transform: scale(0.75, 1);
       font-weight: 100;
+      color: black;
     }
 
     .plan-description {
       font-weight: 100;
       text-align: center;
       width: 200px;
-      margin: 100px 0px;
+      margin: 60px 0px;
+      font-size: 18px;
     }
   }
 
@@ -103,7 +104,7 @@
   .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   .about {
@@ -112,8 +113,8 @@
     flex-direction: column;
     align-items: center;
     .about-content {
-        width: 800px;
-        text-align: center;
+      width: 800px;
+      text-align: center;
       p {
         font-size: 25px;
         color: rgb(71, 71, 71);
@@ -131,8 +132,8 @@
     background-color: rgba(217, 215, 226, 0.904);
 
     .plan-block {
-        cursor: pointer;
-        margin: 0px 20px;
+      cursor: pointer;
+      margin: 0px 20px;
     }
 
     .step {
@@ -144,10 +145,10 @@
       text-align: center;
     }
     span {
-        margin: 20px 0px 10px;
-        text-transform: uppercase;
-        font-weight: 100;
-        font-size: 20px;
+      margin: 20px 0px 10px;
+      text-transform: uppercase;
+      font-weight: 100;
+      font-size: 20px;
     }
     img {
       width: 200px;
@@ -156,11 +157,12 @@
       border: 6px solid white;
     }
     .plan-description {
-        font-weight: 100;
-        text-align: center;
-        width: 220px;
-        color: black;
-        margin: 10px 0px;
+      font-weight: 100;
+      font-size: 16px;
+      text-align: center;
+      width: 220px;
+      color: black;
+      margin: 10px 0px;
     }
   }
 }

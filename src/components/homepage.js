@@ -58,6 +58,13 @@ const HomePage = () => {
                         <span> book event </span>
                         <p className="plan-description"> Provide the basic information about your event </p>
                     </div>
+                    <div className="column">
+                        <p className="step"> 04 </p>
+                        <Icon className="icon" type="check" />
+                        <span> go live </span>
+                        <p className="plan-description"> Once the information has been entered and submitted, 
+                        the event is ready to go live. The AUGVENTS app will find it. </p>
+                    </div>
                 </div>
             </div>
             <div className="about" style={{ backgroundImage: `url(${marble})` }}>

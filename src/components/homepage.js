@@ -7,6 +7,7 @@ import marble from '../marble.jpg'
 import { Icon } from 'antd'
 
 const HomePage = () => {
+   
     const focusBorders = {border: "3px solid rgb(79, 181, 184)", borderRadius: "5px"}
     const [border, setBorder] = useState({})
     const highlightBlock = (index) => {
@@ -19,10 +20,11 @@ const HomePage = () => {
         }
     }
     return (
-        <div className="home">
-            {/* <video autoplay muted loop id="myVideo">
+        <div>
+            <video autoplay="autoplay" muted loop className="myVideo">
                 <source src={myvideo} type="video/mp4"/>
-            </video> */}
+            </video>
+        <div className="home">
             <div className="intro">
                 <div className="logo column absolute-center">
                     <img style={{ margin: "200px 0px 10px" }} src={augventsLogo} alt="logo"></img>
@@ -104,6 +106,8 @@ const HomePage = () => {
                 <button className="book-event" style={{width: "140px", height: "43px", margin:"70px 0px 0px"}}> next </button>
             </div>
         </div>
+        </div>
+
     )
 }
 

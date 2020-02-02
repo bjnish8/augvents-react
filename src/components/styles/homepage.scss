@@ -1,13 +1,14 @@
-.home {
-  height: 6000px;
-  background: rgb(76, 45, 150);
-  #myVideo {
+.myVideo {
     position: fixed;
-    right: 0;
-    bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    top: 0px;
+    z-index: -1;
   }
+
+.home {
+  height: 6000px;
+
   .book-event {
     width: 380px;
     height: 50px;

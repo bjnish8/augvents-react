@@ -1,5 +1,5 @@
 .home {
-  height: 4000px;
+  height: 6000px;
   background: rgb(76, 45, 150);
   #myVideo {
     position: fixed;
@@ -7,6 +7,42 @@
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+  }
+  .book-event {
+    width: 380px;
+    height: 50px;
+    border: 3px solid white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    letter-spacing: 4px;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    background-color: rgba(0, 0, 0, 0.493);
+
+    &:hover {
+      background-color: rgb(99, 201, 204);
+      border: none;
+    }
+  }
+  .title {
+    padding: 120px 0px 0px;
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight: bolder;
+    transform: scale(0.75, 1);
+    text-align: center;
+    hr {
+      width: 500px;
+      border: 0;
+      border-bottom: 3px solid rgb(62, 204, 181);
+      outline: none;
+    }
   }
   .intro {
     height: 1040px;
@@ -18,70 +54,35 @@
       }
     }
 
-    .book-event {
-      width: 380px;
-      height: 50px;
-      border: 3px solid white;
-      text-transform: uppercase;
-      font-weight: bold;
-      font-size: 22px;
-      color: white;
-      letter-spacing: 4px;
-      cursor: pointer;
-      -webkit-transition: background-color 0.5s;
-      -moz-transition: background-color 0.5s;
-      -ms-transition: background-color 0.5s;
-      -o-transition: background-color 0.5s;
-      transition: background-color 0.5s;
-      background-color: rgba(0, 0, 0, 0.493);
 
-      &:hover {
-        background-color: rgb(99, 201, 204);
-        border: none;
-      }
-    }
   }
   .steps {
     background-color: rgba(219, 215, 233, 0.856);
-    height: 1300px;
+    height: 1200px;
 
     .step {
-        font-size: 80px;
-        font-weight: bolder;
-        transform: scale(.75, 1);
+      font-size: 80px;
+      font-weight: bolder;
+      transform: scale(0.75, 1);
     }
 
-    .title {
-        padding: 200px 0px 0px;
-        text-transform: uppercase;
-        font-size: 65px;
-        font-weight: bolder;
-        transform: scale(.75, 1);
-        text-align: center;
-    }
-    .title hr{
-        width: 500px;
-        border: 0;
-        border-bottom: 3px solid rgb(62,204,181);
-        outline: none;
-    }
     .icon {
-        font-size: 70px;
-        color:rgb(41,136,121);
+      font-size: 70px;
+      color: rgb(41, 136, 121);
     }
 
     span {
-        font-size: 50px;
-        text-transform: uppercase;
-        transform: scale(.75, 1);
-        font-weight: 100;
+      font-size: 50px;
+      text-transform: uppercase;
+      transform: scale(0.75, 1);
+      font-weight: 100;
     }
 
     .plan-description {
-        font-weight: 100;
-        text-align: center;
-        width: 200px;
-        margin: 100px 0px;
+      font-weight: 100;
+      text-align: center;
+      width: 200px;
+      margin: 100px 0px;
     }
   }
 
@@ -99,8 +100,66 @@
   }
 
   .row {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .about {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .about-content {
+        width: 800px;
+        text-align: center;
+      p {
+        font-size: 25px;
+        color: rgb(71, 71, 71);
+
+        b {
+          text-transform: uppercase;
+          color: rgb(39, 39, 39);
+        }
+      }
+    }
+  }
+
+  .plans {
+    height: 1050px;
+    background-color: rgba(217, 215, 226, 0.904);
+
+    .plan-block {
+        cursor: pointer;
+        margin: 0px 20px;
+    }
+
+    .step {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 23px;
+      font-weight: 100;
+      margin: 25px 0px 10px;
+      text-align: center;
+    }
+    span {
+        margin: 20px 0px 10px;
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: 20px;
+    }
+    img {
+      width: 200px;
+      height: 110px;
+      outline: 3px solid black;
+      border: 6px solid white;
+    }
+    .plan-description {
+        font-weight: 100;
+        text-align: center;
+        width: 220px;
+        color: black;
+        margin: 10px 0px;
+    }
   }
 }

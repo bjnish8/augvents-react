@@ -8,7 +8,7 @@
 }
 
 .home {
-  height: 6000px;
+  height: 5000px;
 
   .slider {
     z-index: 100;
@@ -116,6 +116,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: black;
+
     .about-content {
       width: 800px;
       text-align: center;
@@ -134,6 +136,7 @@
   .plans {
     height: 1050px;
     background-color: rgba(217, 215, 226, 0.904);
+    color: black;
 
     .plan-block {
       cursor: pointer;
@@ -167,6 +170,49 @@
       width: 220px;
       color: black;
       margin: 10px 0px;
+    }
+  }
+
+  .contact {
+    height: 700px;
+    background-color: rgba(101, 99, 107, 0.938);
+    .title {
+      color: white;
+    }
+
+    .address {
+      color: white;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 100;
+      margin: 0px 0px 70px 0px;
+    }
+
+    .subscribe{
+      color: white;
+
+      p{
+        font-size: 16px;
+      }
+
+      input, button {
+        width: 300px;
+        height: 40px;
+        border-radius: 0px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+        border: none;
+      }
+
+      button {
+        background-color: rgb(81,167,170);;
+      }
+
+      input {
+        background-color: rgba(255, 242, 242, 0.11);
+      }
+      
     }
   }
 }

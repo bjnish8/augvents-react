@@ -4,7 +4,7 @@ import myvideo from '../Live-Music.mp4'
 import augventsLogo from '../augventsLogo.png'
 import marble from '../marble.jpg'
 import ImageSlider from './image.slider'
-import { Icon } from 'antd'
+import { Icon, Input, Button } from 'antd'
 
 const HomePage = () => {
 
@@ -114,7 +114,17 @@ const HomePage = () => {
                 </div>
                 <div className="slider">
                     <ImageSlider />
-
+                </div>
+                <div className="contact">
+                <div className="title">
+                        <p> contact us </p>
+                    </div>
+                    <p className="address">ADDRESS:  500 LEHMAN AVE.  BOWLING GREEN, OH 43402-3089   |  INFO@AUGVENTS.COM</p>
+                    <div className="column subscribe">
+                        <p> Subscribe for updates and promotions </p>
+                        <Input placeholder="Email Address"></Input>
+                        <button>get updates </button>
+                    </div>
                 </div>
             </div>
 

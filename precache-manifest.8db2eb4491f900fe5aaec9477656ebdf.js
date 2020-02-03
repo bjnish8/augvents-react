@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90dc7653428cfe7e4d8bcb4c9e15bf60",
+    "revision": "0fa93b7b7e4143389a1cc4f12fb2e744",
     "url": "/augvents-react/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/augvents-react/static/css/2.8d6f6e05.chunk.css"
   },
   {
-    "revision": "c5859cdfd74b3e2119f5",
-    "url": "/augvents-react/static/css/main.ec1a43a5.chunk.css"
+    "revision": "ed515be01996971bb16c",
+    "url": "/augvents-react/static/css/main.dce5dac1.chunk.css"
   },
   {
     "revision": "cd7fd7eb8913f7cb65c3",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/augvents-react/static/js/2.de49e025.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c5859cdfd74b3e2119f5",
-    "url": "/augvents-react/static/js/main.c3d843fa.chunk.js"
+    "revision": "ed515be01996971bb16c",
+    "url": "/augvents-react/static/js/main.29457f2a.chunk.js"
   },
   {
     "revision": "54f1fea2d427096c2198",

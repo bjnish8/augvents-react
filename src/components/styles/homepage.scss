@@ -206,11 +206,13 @@
       }
 
       button {
-        background-color: rgb(81,167,170);;
+        background-color: rgb(81,167,170);
+        cursor: pointer;
       }
 
       input {
         background-color: rgba(255, 242, 242, 0.11);
+        color: white;
       }
       
     }

@@ -7,8 +7,8 @@ export default class ImageSlider extends Component {
   render() {
     const settings = {
       infinite: true,
-      speed: 1000,
-      autoplaySpeed: 4000,
+      speed: 3500,
+      autoplaySpeed: 1000,
       slidesToShow: 3,
       autoplay: true,
       slidesToScroll: 1,

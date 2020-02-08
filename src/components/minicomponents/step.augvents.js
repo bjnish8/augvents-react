@@ -4,7 +4,7 @@ import { Icon } from 'antd'
 
 const Step = (props) => {
     return (
-        <div className="step column">
+        <div className="step">
             <p className="index">{props.params.index}</p>
             <Icon className="icon" type={props.params.icon} />
             <span> {props.params.title} </span>

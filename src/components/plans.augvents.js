@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './styles/plans.augvents.scss'
 import Title from './minicomponents/augvents.title'
 import AugButton from './minicomponents/augvents.button'
+import Plan from './minicomponents/plan.augvents'
 
 const Plans = () => {
     const focusBorders = { border: "3px solid rgb(79, 181, 184)", borderRadius: "5px" }
@@ -24,7 +25,35 @@ const Plans = () => {
         <div className="plans column">
             <Title {...{ params }} />
             <div className="row">
-                <div className="column plan-block" style={border.block1} onClick={() => highlightBlock(1)}>
+                <Plan
+                    border={border.block1}
+                    onClick={() => highlightBlock(1)} 
+                    params={{
+                        img: "https://www.iamsterdam.com/media/agenda/music/concert-nc.jpg",
+                        title: "pay as you go",
+                        price: "$8 / 1 Event",
+                        description: "Easy and inexpensive way to get the word out about your pop up event."
+                    }}/>
+                <Plan
+                    border={border.block2}
+                    onClick={() => highlightBlock(2)}
+                    params={{
+                        img: "https://isthmus.com/downloads/37929/download/calendar-music-LowCzars.jpg?cb=9eb96b3b0a8144621ef22dafd690e139",
+                        title: "premium",
+                        price: "$65 / 10 events",
+                        description: "Planning on hosting a series of musical or art event"
+                    }} />
+                <Plan
+                    border={border.block3}
+                    onClick={() => highlightBlock(3)} 
+                    params={{
+                        img: "https://cdn.stumagz.com/images/5739ae428cf7bstryimg",
+                        title: "enterprise",
+                        price:"$250 / 50 events",
+                        description: "If booking acts many nights of each week is your repsonsibility \
+                         then you will want the simplicity and low-cost of the enterprise plan"
+                    }}/>
+                {/* <div className="column plan-block" style={border.block1} onClick={() => highlightBlock(1)}>
                     <p className="step">pay as you go</p>
                     <img src="https://cdn.stumagz.com/images/5739ae428cf7bstryimg"></img>
                     <span> $8 / 1 Event </span>
@@ -44,7 +73,7 @@ const Plans = () => {
                     <span> $250 / 50 Events  </span>
                     <p className="plan-description"> If booking acts many nights of each week is your responsiblity then you
                         will want the simpolicity and low-cost of the enterprise plan. </p>
-                </div>
+                </div> */}
             </div>
             <AugButton {...{ params }} />
 

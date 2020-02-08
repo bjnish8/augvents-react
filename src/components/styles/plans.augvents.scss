@@ -6,35 +6,35 @@
   .plan-block {
     cursor: pointer;
     margin: 0px 20px;
-  }
 
-  .step {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 23px;
-    font-weight: 100;
-    margin: 25px 0px 10px;
-    text-align: center;
-  }
-  span {
-    margin: 20px 0px 10px;
-    text-transform: uppercase;
-    font-weight: 100;
-    font-size: 20px;
-  }
-  img {
-    width: 200px;
-    height: 110px;
-    outline: 3px solid black;
-    border: 6px solid white;
-  }
-  .plan-description {
-    font-weight: 100;
-    font-size: 16px;
-    text-align: center;
-    width: 220px;
-    color: black;
-    margin: 10px 0px;
+    .step {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 23px;
+      font-weight: 100;
+      margin: 25px 0px 10px;
+      text-align: center;
+    }
+    span {
+      margin: 20px 0px 10px;
+      text-transform: uppercase;
+      font-weight: 100;
+      font-size: 20px;
+    }
+    img {
+      width: 200px;
+      height: 110px;
+      outline: 3px solid black;
+      border: 6px solid white;
+    }
+    .plan-description {
+      font-weight: 100;
+      font-size: 16px;
+      text-align: center;
+      width: 220px;
+      color: black;
+      margin: 10px 0px;
+    }
   }
 
   .row {

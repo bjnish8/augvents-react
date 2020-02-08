@@ -3,7 +3,7 @@ import myvideo from '../Live-Music.mp4'
 
 const AugVideo = () => {
     return (
-        <video className="myVideo" autoplay="autoplay" muted loop>
+        <video className="myVideo" autoPlay="autoplay" muted loop>
             <source src={myvideo} type="video/mp4" />
         </video>
     );

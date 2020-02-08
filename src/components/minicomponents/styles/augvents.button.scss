@@ -1,0 +1,22 @@
+.book-event {
+    width: 380px;
+    height: 50px;
+    border: 3px solid white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    letter-spacing: 4px;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    background-color: rgba(0, 0, 0, 0.493);
+
+    &:hover {
+      background-color: rgb(99, 201, 204);
+      border: none;
+    }
+  }

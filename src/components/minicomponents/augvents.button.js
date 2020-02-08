@@ -3,7 +3,7 @@ import './styles/augvents.button.scss'
 
 const AugButton = (props) => {
     return ( 
-             <button className="book-event"> {props.text || "book event"} </button>
+             <button className="book-event"> {props.params.text || "book event"} </button>
      );
 }
  

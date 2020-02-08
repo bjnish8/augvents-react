@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import './styles/homepage.scss'
-import marble from '../marble.jpg'
 import ImageSlider from './image.slider'
-import { Icon, Input, Button } from 'antd'
+import { Input } from 'antd'
 import Intro from './intro.augvents'
 import AugVideo from './video'
 import Steps from './four.steps'
+import About from './about.augvents'
 
 const HomePage = () => {
 
@@ -26,20 +26,7 @@ const HomePage = () => {
             <div className="home">
                 <Intro />
                 <Steps />
-                <div className="about" style={{ backgroundImage: `url(${marble})` }}>
-                    <div className="title">
-                        <p> about </p>
-                        <hr />
-                    </div>
-                    <div className="about-content">
-                        <p><b>augvents</b> is a social technology company supporting creative places and public place-making.  </p>
-
-                        <p>The company's technology integrates advertising of events with improved awareness of local activities and the encouragement to participate.</p>
-
-                        <p><b>augvents</b> assists in building healthy, functional, and productive localities through place-making and enhancement of the individual's
-                        sense of community by their increased participation in events. </p>
-                    </div>
-                </div>
+                <About />
                 <div className="plans column">
                     <div className="title">
                         <p> 3 plans to choose from  </p>

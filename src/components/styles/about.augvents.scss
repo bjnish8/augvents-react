@@ -1,0 +1,21 @@
+.about {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+
+  .about-content {
+    width: 800px;
+    text-align: center;
+    p {
+      font-size: 25px;
+      color: rgb(71, 71, 71);
+
+      b {
+        text-transform: uppercase;
+        color: rgb(39, 39, 39);
+      }
+    }
+  }
+}

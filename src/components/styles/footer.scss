@@ -1,16 +1,15 @@
-$textColor: rgb(91, 185, 189);
-
+@import 'basics/text';
 
 .footer-block {
   bottom: 0px;
-  height: 140px;
+  min-height: 140px;
   background-color: rgb(49, 49, 49);
   ul {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
     li {
-      color: $textColor;
+      color: $AugventsLight;
       margin: 0px 200px;
       padding: 15px 10px 0px;
     }

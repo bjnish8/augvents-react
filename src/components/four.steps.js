@@ -2,45 +2,46 @@ import React from 'react';
 import { Icon } from 'antd'
 import Title from './minicomponents/augvents.title'
 import './styles/four.steps.scss'
+import Step from './minicomponents/step.augvents'
 
 const Steps = () => {
     const params = {
         titleText: "4 steps to get started"
     }
-    return ( 
+    return (
         <div className="steps">
-        <Title {...{params}}/>
-        <div className="row">
-            <div className="column">
-                <p className="step">01</p>
-                <Icon className="icon" type="mobile" />
-                <span> sign up </span>
-                <p className="plan-description"> Enter your name, email and phone number. </p>
-            </div>
-            <div className="column">
-                <p className="step"> 02</p>
-                <Icon className="icon" type="edit" />
-                <span> pick plan </span>
-                <p className="plan-description"> Select one of three plans. Your selected plan can
-                    be changed at a later date.
-        </p>
-            </div>
-            <div className="column">
-                <p className="step"> 03 </p>
-                <Icon className="icon" type="check-square" />
-                <span> book event </span>
-                <p className="plan-description"> Provide the basic information about your event </p>
-            </div>
-            <div className="column">
-                <p className="step"> 04 </p>
-                <Icon className="icon" type="check" />
-                <span> go live </span>
-                <p className="plan-description"> Once the information has been entered and submitted,
-            the event is ready to go live. The AUGVENTS app will find it. </p>
+            <Title {...{ params }} />
+            <div className="row">
+                <Step params={{
+                    index: "01",
+                    title: "sign up",
+                    icon: "mobile",
+                    content: "Enter your name, email and phone number. "
+                }} />
+
+                <Step params={{
+                    index: "02",
+                    title: "pick plan",
+                    icon: "edit",
+                    content: "Select one of three plans. Your selected plan can be changed at a later date."
+                }} />
+
+                <Step params={{
+                    index: "03",
+                    title: "book event",
+                    icon: "check-square",
+                    content: "Provide the basic information about your event."
+                }} />
+
+                <Step params={{
+                    index: "04",
+                    title: "go live",
+                    icon: "check",
+                    content: "Once the information has been entered and submitted, the event is ready to go live. The AUGVENTS app will find it. "
+                }} />
             </div>
         </div>
-    </div>
-     );
+    );
 }
- 
+
 export default Steps;

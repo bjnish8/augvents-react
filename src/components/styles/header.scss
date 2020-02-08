@@ -1,4 +1,4 @@
-$textColor: rgb(81,167,170);
+@import 'basics/text';
 
 .header-block {
     background-color: rgb(49, 49, 49);
@@ -18,7 +18,7 @@ $textColor: rgb(81,167,170);
       padding: 0px;
   
       li {
-        color: $textColor;
+        color: $AugventsLight;
         font-size: 16px;
         margin: 0px 10px;
         text-transform: capitalize;
@@ -30,7 +30,7 @@ $textColor: rgb(81,167,170);
     }
 
     .ant-dropdown-link {
-      color: $textColor;
+      color: $AugventsLight;
     }
 
     .menu-item {

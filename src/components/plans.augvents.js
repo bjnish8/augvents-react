@@ -1,5 +1,6 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './styles/plans.augvents.scss'
+import Title from './minicomponents/augvents.title'
 import AugButton from './minicomponents/augvents.button'
 
 const Plans = () => {
@@ -16,14 +17,12 @@ const Plans = () => {
     }
     const params = {
         text: "next",
+        titleText: "3 plans to choose from"
     }
-    
+
     return (
         <div className="plans column">
-            <div className="title">
-                <p> 3 plans to choose from  </p>
-                <hr />
-            </div>
+            <Title {...{ params }} />
             <div className="row">
                 <div className="column plan-block" style={border.block1} onClick={() => highlightBlock(1)}>
                     <p className="step">pay as you go</p>
@@ -47,8 +46,8 @@ const Plans = () => {
                         will want the simpolicity and low-cost of the enterprise plan. </p>
                 </div>
             </div>
-            <AugButton {...{params}}/>
-            
+            <AugButton {...{ params }} />
+
         </div>
     );
 }

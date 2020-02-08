@@ -1,14 +1,15 @@
 import React from 'react';
 import { Icon } from 'antd'
+import Title from './minicomponents/augvents.title'
 import './styles/four.steps.scss'
 
 const Steps = () => {
+    const params = {
+        titleText: "4 steps to get started"
+    }
     return ( 
         <div className="steps">
-        <div className="title">
-            <p>4 steps to get started</p>
-            <hr />
-        </div>
+        <Title {...{params}}/>
         <div className="row">
             <div className="column">
                 <p className="step">01</p>

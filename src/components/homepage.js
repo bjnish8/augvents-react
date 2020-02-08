@@ -7,6 +7,7 @@ import AugVideo from './video'
 import Steps from './four.steps'
 import About from './about.augvents'
 import Plans from './plans.augvents'
+import Contact from './contact.augvents'
 
 const HomePage = () => {
     const focusBorders = { border: "3px solid rgb(79, 181, 184)", borderRadius: "5px" }
@@ -31,17 +32,7 @@ const HomePage = () => {
                 <div className="slider">
                     <ImageSlider />
                 </div>
-                <div className="contact">
-                    <div className="title">
-                        <p> contact us </p>
-                    </div>
-                    <p className="address">ADDRESS:  500 LEHMAN AVE.  BOWLING GREEN, OH 43402-3089   |  INFO@AUGVENTS.COM</p>
-                    <div className="column subscribe">
-                        <p> Subscribe for updates and promotions </p>
-                        <Input placeholder="Email Address"></Input>
-                        <button>get updates </button>
-                    </div>
-                </div>
+             <Contact />
             </div>
 
         </div>

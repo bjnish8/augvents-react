@@ -1,0 +1,44 @@
+.contact {
+    height: 700px;
+    background-color: rgba(101, 99, 107, 0.938);
+    .title {
+      color: white;
+    }
+
+    .address {
+      color: white;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 100;
+      margin: 0px 0px 70px 0px;
+    }
+
+    .subscribe{
+      color: white;
+
+      p{
+        font-size: 16px;
+      }
+
+      input, button {
+        width: 300px;
+        height: 40px;
+        border-radius: 0px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+        border: none;
+      }
+
+      button {
+        background-color: rgb(81,167,170);
+        cursor: pointer;
+      }
+
+      input {
+        background-color: rgba(255, 242, 242, 0.11);
+        color: white;
+      }
+      
+    }
+  }

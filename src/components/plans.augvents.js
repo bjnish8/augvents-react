@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './styles/plans.augvents.scss'
+import AugButton from './minicomponents/augvents.button'
 
 const Plans = () => {
     const focusBorders = { border: "3px solid rgb(79, 181, 184)", borderRadius: "5px" }
@@ -13,6 +14,10 @@ const Plans = () => {
             setBorder({ block3: focusBorders })
         }
     }
+    const params = {
+        text: "next",
+    }
+    
     return (
         <div className="plans column">
             <div className="title">
@@ -41,9 +46,9 @@ const Plans = () => {
                     <p className="plan-description"> If booking acts many nights of each week is your responsiblity then you
                         will want the simpolicity and low-cost of the enterprise plan. </p>
                 </div>
-
             </div>
-            <button className="book-event" style={{ width: "140px", height: "43px", margin: "70px 0px 0px" }}> next </button>
+            <AugButton {...{params}}/>
+            
         </div>
     );
 }

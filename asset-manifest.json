@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/augvents-react/static/css/main.dce5dac1.chunk.css",
-    "main.js": "/augvents-react/static/js/main.29457f2a.chunk.js",
-    "main.js.map": "/augvents-react/static/js/main.29457f2a.chunk.js.map",
+    "main.css": "/augvents-react/static/css/main.214cccc5.chunk.css",
+    "main.js": "/augvents-react/static/js/main.8c403f5e.chunk.js",
+    "main.js.map": "/augvents-react/static/js/main.8c403f5e.chunk.js.map",
     "runtime-main.js": "/augvents-react/static/js/runtime-main.31b5b52c.js",
     "runtime-main.js.map": "/augvents-react/static/js/runtime-main.31b5b52c.js.map",
-    "static/css/2.8d6f6e05.chunk.css": "/augvents-react/static/css/2.8d6f6e05.chunk.css",
-    "static/js/2.de49e025.chunk.js": "/augvents-react/static/js/2.de49e025.chunk.js",
-    "static/js/2.de49e025.chunk.js.map": "/augvents-react/static/js/2.de49e025.chunk.js.map",
+    "static/css/2.029840e0.chunk.css": "/augvents-react/static/css/2.029840e0.chunk.css",
+    "static/js/2.022b647f.chunk.js": "/augvents-react/static/js/2.022b647f.chunk.js",
+    "static/js/2.022b647f.chunk.js.map": "/augvents-react/static/js/2.022b647f.chunk.js.map",
     "index.html": "/augvents-react/index.html",
-    "precache-manifest.8db2eb4491f900fe5aaec9477656ebdf.js": "/augvents-react/precache-manifest.8db2eb4491f900fe5aaec9477656ebdf.js",
+    "precache-manifest.3e030739f4f89976a858f02d9232b8de.js": "/augvents-react/precache-manifest.3e030739f4f89976a858f02d9232b8de.js",
     "service-worker.js": "/augvents-react/service-worker.js",
-    "static/css/2.8d6f6e05.chunk.css.map": "/augvents-react/static/css/2.8d6f6e05.chunk.css.map",
-    "static/css/main.dce5dac1.chunk.css.map": "/augvents-react/static/css/main.dce5dac1.chunk.css.map",
-    "static/js/2.de49e025.chunk.js.LICENSE.txt": "/augvents-react/static/js/2.de49e025.chunk.js.LICENSE.txt",
+    "static/css/2.029840e0.chunk.css.map": "/augvents-react/static/css/2.029840e0.chunk.css.map",
+    "static/css/main.214cccc5.chunk.css.map": "/augvents-react/static/css/main.214cccc5.chunk.css.map",
+    "static/js/2.022b647f.chunk.js.LICENSE.txt": "/augvents-react/static/js/2.022b647f.chunk.js.LICENSE.txt",
     "static/media/Live-Music.mp4": "/augvents-react/static/media/Live-Music.cdf61c32.mp4",
     "static/media/event.jpeg": "/augvents-react/static/media/event.9539a81c.jpeg",
     "static/media/marble.jpg": "/augvents-react/static/media/marble.e5f752d2.jpg",
@@ -21,9 +21,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.31b5b52c.js",
-    "static/css/2.8d6f6e05.chunk.css",
-    "static/js/2.de49e025.chunk.js",
-    "static/css/main.dce5dac1.chunk.css",
-    "static/js/main.29457f2a.chunk.js"
+    "static/css/2.029840e0.chunk.css",
+    "static/js/2.022b647f.chunk.js",
+    "static/css/main.214cccc5.chunk.css",
+    "static/js/main.8c403f5e.chunk.js"
   ]
 }

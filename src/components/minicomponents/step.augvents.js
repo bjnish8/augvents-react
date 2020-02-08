@@ -5,10 +5,10 @@ import { Icon } from 'antd'
 const Step = (props) => {
     return (
         <div className="step">
-            <p className="index">{props.params.index}</p>
+            <span className="index">{props.params.index}</span>
             <Icon className="icon" type={props.params.icon} />
-            <span> {props.params.title} </span>
-            <p className="plan-description">{props.params.content} </p>
+            <span className="title"> {props.params.title} </span>
+            <span className="plan-description">{props.params.content} </span>
         </div>
     );
 }

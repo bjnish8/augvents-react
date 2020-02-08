@@ -11,9 +11,10 @@
       .icon {
         font-size: 70px;
         color: rgb(81, 167, 170);
+        margin: 30px 0px 0px;
       }
     
-      span {
+      .title {
         font-size: 50px;
         text-transform: uppercase;
         transform: scale(0.75, 1);
@@ -26,7 +27,7 @@
         font-weight: 100;
         text-align: center;
         max-width: 200px;
-        margin: 60px 0px;
+        margin: 30px 0px;
         font-size: 16px;
       }
 }

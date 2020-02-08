@@ -1,20 +1,23 @@
 @import 'basics/text';
 
 .contact {
-  min-height: 700px;
-  background-color: rgba(237, 235, 243, 0.938);
+  min-height: 520px;
+  background-color: rgba(217, 215, 226, 0.904);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   .address {
-    color: black;
-    text-align: center;
+    color: $textColor;
     font-size: 18px;
-    font-weight: 100;
-    margin: 0px 0px 70px 0px;
+    font-weight: 400;
+    margin: 0px 0px 50px 0px;
   }
 
   .subscribe {
-    p {
-      font-size: $fontNormalSize + 1;
+    span {
+      font-size: $fontNormalSize + 2;
+      margin: 0px 0px 20px;
     }
 
     input,
@@ -34,7 +37,7 @@
     }
 
     input {
-      background-color: rgba(163, 163, 163, 0.11);
+      background-color: rgba(155, 155, 155, 0.308);
 
       &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: $placeHolderColor;

@@ -32,11 +32,9 @@ const HomePage = () => {
                 <div className="slider">
                     <ImageSlider />
                 </div>
-             <Contact />
+                <Contact />
             </div>
-
         </div>
-
     )
 }
 

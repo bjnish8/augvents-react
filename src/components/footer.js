@@ -5,8 +5,9 @@ const Footer = () => {
     return (
         <div className="footer-block">
             <ul>
-                <li> Terms of Service</li>
-                <li> Privacy Policy </li>
+                <li className="link"> Terms of Service</li>
+                <li className="link"> Privacy Policy </li>
+                <li> Copyright @ Augvents Inc 2019/2020</li>
             </ul>
         </div>
       );

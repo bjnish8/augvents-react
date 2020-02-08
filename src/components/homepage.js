@@ -5,6 +5,7 @@ import ImageSlider from './image.slider'
 import { Icon, Input, Button } from 'antd'
 import Intro from './intro.augvents'
 import AugVideo from './video'
+import Steps from './four.steps'
 
 const HomePage = () => {
 
@@ -24,41 +25,7 @@ const HomePage = () => {
             <AugVideo />
             <div className="home">
                 <Intro />
-                <div className="steps">
-                    <div className="title">
-                        <p>4 steps to get started</p>
-                        <hr />
-                    </div>
-                    <div className="row">
-                        <div className="column">
-                            <p className="step">01</p>
-                            <Icon className="icon" type="mobile" />
-                            <span> sign up </span>
-                            <p className="plan-description"> Enter your name, email and phone number. </p>
-                        </div>
-                        <div className="column">
-                            <p className="step"> 02</p>
-                            <Icon className="icon" type="edit" />
-                            <span> pick plan </span>
-                            <p className="plan-description"> Select one of three plans. Your selected plan can
-                                be changed at a later date.
-                    </p>
-                        </div>
-                        <div className="column">
-                            <p className="step"> 03 </p>
-                            <Icon className="icon" type="check-square" />
-                            <span> book event </span>
-                            <p className="plan-description"> Provide the basic information about your event </p>
-                        </div>
-                        <div className="column">
-                            <p className="step"> 04 </p>
-                            <Icon className="icon" type="check" />
-                            <span> go live </span>
-                            <p className="plan-description"> Once the information has been entered and submitted,
-                        the event is ready to go live. The AUGVENTS app will find it. </p>
-                        </div>
-                    </div>
-                </div>
+                <Steps />
                 <div className="about" style={{ backgroundImage: `url(${marble})` }}>
                     <div className="title">
                         <p> about </p>

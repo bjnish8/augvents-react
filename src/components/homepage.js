@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import './styles/homepage.scss'
-import myvideo from '../Live-Music.mp4'
 import marble from '../marble.jpg'
 import ImageSlider from './image.slider'
 import { Icon, Input, Button } from 'antd'
 import Intro from './intro.augvents'
+import AugVideo from './video'
 
 const HomePage = () => {
 
@@ -21,14 +21,9 @@ const HomePage = () => {
     }
     return (
         <div>
-            <video autoplay="autoplay" muted loop className="myVideo">
-                <source src={myvideo} type="video/mp4" />
-            </video>
-            <Intro />
+            <AugVideo />
             <div className="home">
-                <div>
-                   
-                </div>
+                <Intro />
                 <div className="steps">
                     <div className="title">
                         <p>4 steps to get started</p>
@@ -113,7 +108,7 @@ const HomePage = () => {
                     <ImageSlider />
                 </div>
                 <div className="contact">
-                <div className="title">
+                    <div className="title">
                         <p> contact us </p>
                     </div>
                     <p className="address">ADDRESS:  500 LEHMAN AVE.  BOWLING GREEN, OH 43402-3089   |  INFO@AUGVENTS.COM</p>

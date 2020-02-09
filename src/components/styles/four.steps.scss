@@ -1,11 +1,69 @@
 .steps {
   background-color: rgba(226, 223, 241, 0.89);
-  min-height: 820px;
   color: black;
 
-  .row {
+  .content {
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+    .level {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+
+@media all and (min-width: 940px) {
+  .steps {
+    background-color: rgba(226, 223, 241, 0.89);
+    min-height: 820px;
+    color: black;
+
+    .content {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      .level {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 680px) and (max-width: 940px) {
+  .steps {
+    background-color: rgba(226, 223, 241, 0.89);
+    color: black;
+
+    .content {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      .level {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 680px) {
+  .steps {
+    background-color: rgba(226, 223, 241, 0.89);
+    color: black;
+    padding: 0px 0px 25px;
+    .content {
+      display: flex;
+      flex-direction: column;
+      .level {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
   }
 }

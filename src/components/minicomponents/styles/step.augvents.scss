@@ -2,32 +2,106 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  .index {
+    font-size: 80px;
+    font-weight: bolder;
+    transform: scale(0.75, 1);
+  }
+
+  .icon {
+    font-size: 70px;
+    color: rgb(81, 167, 170);
+    margin: 30px 0px 0px;
+  }
+
+  .title {
+    font-size: 50px;
+    text-transform: uppercase;
+    transform: scale(0.75, 1);
+    font-weight: 100;
+    color: black;
+    text-align: center;
+  }
+
+  .plan-description {
+    font-weight: 100;
+    text-align: center;
+    max-width: 200px;
+    margin: 30px 0px;
+    font-size: 16px;
+  }
+}
+// 940px
+
+@media all and (min-width: 940px) {
+  .step {
     .index {
-        font-size: 80px;
-        font-weight: bolder;
-        transform: scale(0.75, 1);
-      }
-    
-      .icon {
-        font-size: 70px;
-        color: rgb(81, 167, 170);
-        margin: 30px 0px 0px;
-      }
-    
-      .title {
-        font-size: 50px;
-        text-transform: uppercase;
-        transform: scale(0.75, 1);
-        font-weight: 100;
-        color: black;
-        text-align: center;
-      }
-    
-      .plan-description {
-        font-weight: 100;
-        text-align: center;
-        max-width: 200px;
-        margin: 30px 0px;
-        font-size: 16px;
-      }
+      font-size: 80px;
+      transform: scale(0.75, 1);
+    }
+    .icon {
+      font-size: 70px;
+      margin: 30px 0px 0px;
+    }
+
+    .title {
+      font-size: 50px;
+      font-weight: 100;
+    }
+
+    .plan-description {
+      max-width: 200px;
+      margin: 30px 0px;
+      font-size: 16px;
+    }
+  }
+}
+
+@media all and (min-width: 680px) and (max-width: 940px) {
+  .step {
+    .index {
+      font-size: 50px;
+      transform: scale(0.75, 1);
+    }
+    .icon {
+      font-size: 40px;
+      margin: 30px 0px 0px;
+    }
+
+    .title {
+      font-size: 30px;
+      font-weight: 100;
+    }
+
+    .plan-description {
+      max-width: 150px;
+      margin: 30px 0px;
+      font-size: 16px;
+    }
+  }
+}
+// 680 point
+
+@media all and (max-width: 680px) {
+  .step {
+    .index {
+      font-size: 50px;
+      transform: scale(0.75, 1);
+    }
+    .icon {
+      font-size: 40px;
+      margin: 15px 0px 0px;
+    }
+
+    .title {
+      font-size: 30px;
+      font-weight: 100;
+    }
+
+    .plan-description {
+      max-width: 150px;
+      margin: 10px 0px;
+      font-size: 16px;
+    }
+  }
 }

@@ -1,12 +1,11 @@
-@import 'basics/text';
+@import "basics/text";
 
 .about {
-  min-height: 720px;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: black;
-
+  padding: 0px 50px 25px;
   .about-content {
     text-align: center;
     p {
@@ -16,6 +15,39 @@
       b {
         text-transform: uppercase;
         color: rgb(39, 39, 39);
+      }
+    }
+  }
+}
+
+@media all and (min-width: 768px) {
+  .about {
+    min-height: 720px;
+    .about-content {
+      p {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .about {
+    padding: 0px 40px 25px;
+    .about-content {
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 480px) {
+  .about {
+    padding: 0px 30px 25px;
+    .about-content {
+      p {
+        font-size: 16px;
       }
     }
   }

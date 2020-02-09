@@ -34,7 +34,6 @@
 
 @media all and (min-width: 768px) {
   .plan-block {
-
     .step {
       font-size: 23px;
     }
@@ -74,19 +73,20 @@
 
 @media all and (max-width: 480px) {
   .plan-block {
+    margin: 0px 5px;
     .step {
-      font-size: 23px;
+      font-size: 18px;
     }
     span {
-      font-size: 20px;
+      font-size: 16px;
     }
     img {
-      width: 200px;
-      height: 110px;
+      width: 140px;
+      height: 75px;
     }
     .plan-description {
-      font-size: 16px;
-      width: 220px;
+      font-size: 14px;
+      width: 150px;
     }
   }
 }

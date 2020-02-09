@@ -31,3 +31,62 @@
     margin: 10px 0px;
   }
 }
+
+@media all and (min-width: 768px) {
+  .plan-block {
+
+    .step {
+      font-size: 23px;
+    }
+    span {
+      font-size: 20px;
+    }
+    img {
+      width: 200px;
+      height: 110px;
+    }
+    .plan-description {
+      font-size: 16px;
+      width: 220px;
+    }
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .plan-block {
+    margin: 0px 15px;
+    .step {
+      font-size: 18px;
+    }
+    span {
+      font-size: 16px;
+    }
+    img {
+      width: 140px;
+      height: 75px;
+    }
+    .plan-description {
+      font-size: 14px;
+      width: 150px;
+    }
+  }
+}
+
+@media all and (max-width: 480px) {
+  .plan-block {
+    .step {
+      font-size: 23px;
+    }
+    span {
+      font-size: 20px;
+    }
+    img {
+      width: 200px;
+      height: 110px;
+    }
+    .plan-description {
+      font-size: 16px;
+      width: 220px;
+    }
+  }
+}

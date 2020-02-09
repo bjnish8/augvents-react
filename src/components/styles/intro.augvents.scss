@@ -18,6 +18,17 @@
   }
 }
 
+.intro-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.intro-visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1.5s linear;
+}
+
 @media all and (min-width: 768px) {
   .intro {
     min-height: 940px;

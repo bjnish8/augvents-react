@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './styles/homepage.scss'
 import ImageSlider from './image.slider'
 import { Input } from 'antd'
@@ -10,17 +10,6 @@ import Plans from './plans.augvents'
 import Contact from './contact.augvents'
 
 const HomePage = () => {
-    const focusBorders = { border: "3px solid rgb(79, 181, 184)", borderRadius: "5px" }
-    const [border, setBorder] = useState({})
-    const highlightBlock = (index) => {
-        if (index === 1) {
-            setBorder({ block1: focusBorders })
-        } else if (index === 2) {
-            setBorder({ block2: focusBorders })
-        } else {
-            setBorder({ block3: focusBorders })
-        }
-    }
     return (
         <div>
             <AugVideo />
@@ -37,5 +26,5 @@ const HomePage = () => {
         </div>
     )
 }
-
+ 
 export default HomePage

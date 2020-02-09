@@ -1,39 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "63eb6dd78241e0efd163bafff4188ac9",
+    "revision": "497788ab5db78dc8b4dd93573fb5046d",
     "url": "/augvents-react/index.html"
   },
   {
-    "revision": "1cd26720a09d632bce6c",
+    "revision": "2a6c63210b143071a976",
     "url": "/augvents-react/static/css/2.029840e0.chunk.css"
   },
   {
-    "revision": "334d1f9e32891a8185fb",
-    "url": "/augvents-react/static/css/main.214cccc5.chunk.css"
+    "revision": "0749b28affb210f6b022",
+    "url": "/augvents-react/static/css/main.d03f4b44.chunk.css"
   },
   {
-    "revision": "1cd26720a09d632bce6c",
-    "url": "/augvents-react/static/js/2.022b647f.chunk.js"
+    "revision": "2a6c63210b143071a976",
+    "url": "/augvents-react/static/js/2.9d0cf095.chunk.js"
   },
   {
     "revision": "bfc08a62983de46a4daec9f8c3c657d8",
-    "url": "/augvents-react/static/js/2.022b647f.chunk.js.LICENSE.txt"
+    "url": "/augvents-react/static/js/2.9d0cf095.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "334d1f9e32891a8185fb",
-    "url": "/augvents-react/static/js/main.8c403f5e.chunk.js"
+    "revision": "0749b28affb210f6b022",
+    "url": "/augvents-react/static/js/main.cdff394c.chunk.js"
   },
   {
     "revision": "54f1fea2d427096c2198",
     "url": "/augvents-react/static/js/runtime-main.31b5b52c.js"
   },
   {
+    "revision": "c56c68c0806c679d18a9711171729751",
+    "url": "/augvents-react/static/media/Live-Music.c56c68c0.jpg"
+  },
+  {
     "revision": "cdf61c320c40f87430769218a1a9c5e7",
     "url": "/augvents-react/static/media/Live-Music.cdf61c32.mp4"
   },
   {
-    "revision": "9539a81c00c1c194a6caf289d6cd3c5c",
-    "url": "/augvents-react/static/media/event.9539a81c.jpeg"
+    "revision": "85da72b392fe67664a55b65a405ec01f",
+    "url": "/augvents-react/static/media/event.85da72b3.jpeg"
   },
   {
     "revision": "e5f752d2c4188f3dc1a266cebf46f694",

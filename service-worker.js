@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/augvents-react/precache-manifest.3e030739f4f89976a858f02d9232b8de.js"
+  "/augvents-react/precache-manifest.ea81a451f912b08eb186a1950f27de5b.js"
 );
 
 self.addEventListener('message', (event) => {

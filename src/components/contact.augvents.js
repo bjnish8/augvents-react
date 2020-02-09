@@ -12,7 +12,7 @@ const Contact = () => {
             <Title {...{ params }} />
             <div className="address">
                 <div> <Icon className="icon" type="mail" /> info@augvents.com </div>
-                <div>  <Icon className="icon" type="compass" /> 500 Lehman Ave.  Bowling Green, OH 43402-3089 </div>
+                <div>  <Icon className="icon" type="compass" /> 500 Lehman Ave. Bowling Green, OH 43402 </div>
             </div>
             <div className="column subscribe">
                 <span> Subscribe for updates and promotions </span>

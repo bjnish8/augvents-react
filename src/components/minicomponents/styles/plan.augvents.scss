@@ -1,4 +1,7 @@
 .plan-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   cursor: pointer;
   margin: 0px 20px;
 
@@ -7,11 +10,11 @@
     letter-spacing: 2px;
     font-size: 23px;
     font-weight: 100;
-    margin: 25px 0px 10px;
+    margin: 0px 0px 5px;
     text-align: center;
   }
   span {
-    margin: 20px 0px 10px;
+    margin: 5px 0px 10px;
     text-transform: uppercase;
     font-weight: 100;
     font-size: 20px;
@@ -51,7 +54,7 @@
   }
 }
 
-@media all and (min-width: 480px) and (max-width: 768px) {
+@media all and (min-width: 600px) and (max-width: 768px) {
   .plan-block {
     margin: 0px 15px;
     .step {
@@ -71,9 +74,10 @@
   }
 }
 
-@media all and (max-width: 480px) {
+@media all and (min-width: 480px) and (max-width: 600px) {
   .plan-block {
-    margin: 0px 5px;
+    flex-direction: row;
+    margin: 0px 5px 10px;
     .step {
       font-size: 18px;
     }
@@ -86,7 +90,29 @@
     }
     .plan-description {
       font-size: 14px;
-      width: 150px;
+      width: 210px;
+      margin: 0px 30px 0px;
+    }
+  }
+}
+@media all and (max-width: 480px) {
+  .plan-block {
+    flex-direction: row;
+    margin: 0px 5px 10px;
+    .step {
+      font-size: 16px;
+    }
+    span {
+      font-size: 16px;
+    }
+    img {
+      width: 140px;
+      height: 75px;
+    }
+    .plan-description {
+      font-size: 14px;
+      width: 50%;
+      margin: 0px 30px 0px;
     }
   }
 }

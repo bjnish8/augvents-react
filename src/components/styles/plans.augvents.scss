@@ -1,11 +1,39 @@
-.plans {
-  min-height: 800px;
-  background-color: rgba(226, 223, 241, 0.89);
-  color: black;
+@media all and (min-width: 768px) {
+  .plans {
+    padding: 0px 0px 60px;
+    background-color: rgba(226, 223, 241, 0.89);
+    color: black;
+    .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+}
 
-  .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+@media all and (min-width: 600px) and (max-width: 768px) {
+  .plans {
+    padding: 0px 0px 35px;
+    background-color: rgba(226, 223, 241, 0.89);
+    color: black;
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+}
+
+@media all and (max-width: 600px) {
+  .plans {
+    background-color: rgba(226, 223, 241, 0.89);
+    color: black;
+    padding: 0px 0px 35px;
+    .row {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
 }

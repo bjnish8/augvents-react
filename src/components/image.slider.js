@@ -12,6 +12,7 @@ const ImageSlider = (props) => {
     slidesToShow: 3,
     autoplay: true,
     slidesToScroll: 1,
+    arrows: false,
   };
   return (
     <div className="image-slider" >

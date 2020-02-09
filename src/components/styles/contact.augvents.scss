@@ -1,17 +1,26 @@
-@import 'basics/text';
+@import "basics/text";
 
 .contact {
-  min-height: 520px;
   background-color: rgba(217, 215, 226, 0.904);
   display: flex;
   flex-direction: column;
   align-items: center;
 
+  .icon {
+    font-size: 22px;
+    color: rgb(81, 167, 170);
+    margin: 0px 3px 0px 30px;
+  }
+
   .address {
     color: $textColor;
     font-size: 18px;
     font-weight: 400;
-    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 80px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
   .subscribe {
@@ -39,17 +48,96 @@
     input {
       background-color: rgba(155, 155, 155, 0.308);
 
-      &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      &::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: $placeHolderColor;
         opacity: 1; /* Firefox */
       }
-      
-      &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+
+      &:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
         color: $placeHolderColor;
       }
-      
-      &::-ms-input-placeholder { /* Microsoft Edge */
+
+      &::-ms-input-placeholder {
+        /* Microsoft Edge */
         color: $placeHolderColor;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 768px) {
+  .contact {
+    min-height: 620px;
+    .address {
+      color: $textColor;
+      font-size: 18px;
+      font-weight: 400;
+      margin: 0px 0px 80px 0px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .icon {
+      font-size: 22px;
+      color: rgb(81, 167, 170);
+      margin: 0px 3px 0px 30px;
+    }
+    .subscribe {
+      span {
+        font-size: $fontNormalSize + 2;
+        margin: 0px 0px 20px;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .contact {
+    padding: 0px 0px 25px;
+    .address {
+      font-size: 18px;
+      margin: 0px 0px 50px 0px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .icon {
+      font-size: 22px;
+      color: rgb(81, 167, 170);
+      margin: 10px 3px 0px 0px;
+    }
+    .subscribe {
+      span {
+        font-size: $fontNormalSize + 2;
+        margin: 0px 0px 20px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 480px) {
+  .contact {
+    padding: 0px 0px 25px;
+    .address {
+      font-size: 16px;
+      margin: 0px 0px 50px 0px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .icon {
+      font-size: 20px;
+      color: rgb(81, 167, 170);
+      margin: 10px 3px 0px 0px;
+    }
+    .subscribe {
+      span {
+        font-size: $fontNormalSize + 1;
+        margin: 0px 0px 20px;
       }
     }
   }

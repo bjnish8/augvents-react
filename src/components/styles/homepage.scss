@@ -7,17 +7,26 @@
 }
 
 .home {
-  min-height: 4000px;
-
   .slider {
     z-index: 100;
   }
-  
+
   .column {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+}
 
+@media all and (min-width: 768px) {
+  .home {
+    min-height: 4000px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+}
+
+@media all and (max-width: 480px) {
 
 }
